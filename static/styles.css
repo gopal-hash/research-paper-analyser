@@ -1,0 +1,137 @@
+body {
+    font-family: 'Georgia', serif; /* Classic serif font for readability */
+    background-color: #f4f4f4; /* Light gray background for a soft, neutral look */
+    color: #333333; /* Dark gray for text for good contrast and readability */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px; /* Compact layout for focus */
+    margin: 40px auto; /* Reduced margin for a more balanced look */
+    padding: 20px; /* Reduced padding for a cleaner layout */
+    background-color: #ffffff; /* White background for a clean, academic look */
+    border-radius: 8px; /* Subtle rounding for a polished appearance */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle floating effect */
+    text-align: left;
+}
+
+h1 {
+    color: #003366; /* Deep blue for a professional and academic feel */
+    font-family: 'Georgia', serif; /* Consistent serif font for headers */
+    font-size: 2.5em; /* Adjusted size for better balance */
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #003366; /* Underline for emphasis */
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc; /* Light border for a clean input box */
+    border-radius: 4px; /* Subtle rounding for the input box */
+    background-color: #ffffff; /* White background for the input */
+    color: #333333; /* Dark text for readability */
+    font-size: 1em;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Soft inset shadow */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth focus transition */
+}
+
+input[type="text"]:focus {
+    border-color: #003366; /* Blue border on focus */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Subtle glow effect */
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #003366; /* Deep blue for the button */
+    color: #ffffff; /* White text for contrast */
+    border: none;
+    border-radius: 4px; /* Slight rounding for the button */
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #002244; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.results {
+    background-color: #ffffff; /* White background for the results section */
+    color: #333333; /* Dark text for readability */
+    padding: 20px;
+    border-radius: 8px; /* Subtle rounding for the results box */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    font-size: 1em;
+    line-height: 1.6; /* Improved line height for readability */
+    margin-top: 20px;
+}
+
+.results pre {
+    background-color: #f9f9f9; /* Very light background for code blocks */
+    color: #003366; /* Deep blue for code text */
+    padding: 15px;
+    border-radius: 4px; /* Slightly rounded edges */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-family: 'Courier New', monospace; /* Classic monospace font for code */
+}
+
+.results h2 {
+    font-size: 1.5em;
+    color: #003366; /* Deep blue for headers */
+    margin-bottom: 16px;
+    border-bottom: 1px solid #cccccc; /* Subtle underline for emphasis */
+    padding-bottom: 8px;
+}
+
+.results p {
+    margin-bottom: 16px;
+    line-height: 1.6; /* Better spacing for readability */
+    font-size: 1em;
+}
+
+.results .crypto-stats {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4; /* Light gray background for stats */
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.results .crypto-stats div {
+    flex: 1;
+    text-align: center;
+    color: #003366; /* Deep blue for stats text */
+    font-family: 'Georgia', serif; /* Serif font for a scholarly look */
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+.crypto-chart {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for the chart section */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    text-align: center;
+}
+
+.crypto-chart img {
+    max-width: 100%;
+    border-radius: 4px; /* Slightly rounded edges for the chart */
+}
